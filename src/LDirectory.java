@@ -19,6 +19,7 @@ public class LDirectory extends JPanel {//LDirectory는 원래 패널임
 		createNodes(rootNode, rootDirectory);
 		tree.setModel(new javax.swing.tree.DefaultTreeModel(rootNode));
 	}
+	
 
 	private void createNodes(DefaultMutableTreeNode node, File file) {
 		if (file.isDirectory()) {
